@@ -1,0 +1,56 @@
+{
+    "Math": {
+        "L2": [
+            {
+                "nom": "Alg\u00e8bre lin\u00e9aire 2",
+                "color": "#ff0a0a",
+                "AMS": ""
+            },
+            {
+                "nom": "Alg\u00e8bre et arithm\u00e9tique",
+                "color": "#9d5c5c",
+                "AMS": ""
+            },
+            {
+                "nom": "Topologie 1",
+                "color": "#5cf051",
+                "AMS": ""
+            },
+            {
+                "nom": "Topologie 2 - Courbes et surfaces",
+                "color": "#1e00ff",
+                "AMS": ""
+            },
+            {
+                "nom": "Analyse 2 - S\u00e9ries et Int\u00e9grales",
+                "color": "#00bfff",
+                "AMS": ""
+            },
+            {
+                "nom": "Alg\u00e8bre lin\u00e9aire 3",
+                "color": "#5fea39",
+                "AMS": ""
+            },
+            {
+                "nom": "Analyse 3 - Suites et S\u00e9ries de fonctions",
+                "color": "#1463ff",
+                "AMS": ""
+            },
+            {
+                "nom": "Probabilit\u00e9s 1",
+                "color": "#ffbb00",
+                "AMS": ""
+            },
+            {
+                "nom": "Calcul Num\u00e9rique 1 - Python pour le calcul scientifique",
+                "color": "#ff7b0f",
+                "AMS": ""
+            },
+            {
+                "nom": "Calcul Num\u00e9rique 2 - Introduction \u00e0 la mod\u00e9lisation et au calcul scientifique",
+                "color": "#1bac2c",
+                "AMS": ""
+            }
+        ]
+    }
+}

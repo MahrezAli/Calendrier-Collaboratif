@@ -1,0 +1,29 @@
+[
+    {
+        "nom": "Vernier",
+        "prenom": "Frederic",
+        "email": "da",
+        "mot_de_passe": "1234",
+        "fonction": "Responsable",
+        "niveau": "L2",
+        "filiere": "Math"
+    },
+    {
+        "nom": "Mahrez",
+        "prenom": "Ali",
+        "email": "ee",
+        "mot_de_passe": "1234",
+        "fonction": "Etudiant",
+        "niveau": "L2",
+        "filiere": "Math"
+    },
+    {
+        "nom": "Rei",
+        "prenom": "David",
+        "email": "David.Rei@gmail.com",
+        "mot_de_passe": "1234",
+        "fonction": "Coordinateur",
+        "niveau": "L2",
+        "filiere": "Math"
+    }
+]

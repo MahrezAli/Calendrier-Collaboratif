@@ -1,0 +1,349 @@
+.exit{
+    border : none;
+    background-color: rgba(0, 0, 0, 0);;
+}
+.exit:hover {
+    color: #ff0505;
+}
+.hiddenButton {
+    display: none;
+}
+.container{
+    position:relative;
+    top:150px;
+    text-align: center;
+}
+button {
+    margin-right: 30px;
+    display: inline-block;
+    width:250px;
+    height:130px;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    padding:28px 48px;
+    text-decoration:none;
+    border: none;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    z-index: 1;
+}
+
+/* CSS Modal Coordinateurs */
+
+.modalCoordinateur {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 450px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: auto;
+    padding: 1.3rem;
+}
+
+.hidden {
+    display: none;
+}
+.visible {
+    display: block;
+}
+
+.modalCoordinateur .flexCoordinateur {
+    display: flex;
+    float:left;
+}
+
+.modalCoordinateur input {
+    padding: 0.7rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+.modalCoordinateur p {
+    font-size: 0.9rem;
+    color: #777;
+    margin: 0.4rem 0 0.2rem;
+}
+
+/* CSS Modal Cours */
+
+.modalCours {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 450px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: auto;
+    padding: 1.3rem;
+}
+
+.hidden {
+    display: none;
+}
+.visible {
+    display: block;
+}
+
+.modalCours .flexCours {
+    display: flex;
+    float:left;
+}
+
+.modalCours input {
+    padding: 0.7rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+.modalCours p {
+    font-size: 0.9rem;
+    color: #777;
+    margin: 0.4rem 0 0.2rem;
+}
+
+/* CSS Modal Salles */
+
+.modalSalles {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 450px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: auto;
+    padding: 1.3rem;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.modalSalles .flexSalles {
+    display: flex;
+    float:left;
+}
+
+.modalSalles input {
+    padding: 0.7rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+.modalSalles p {
+    font-size: 0.9rem;
+    color: #777;
+    margin: 0.4rem 0 0.2rem;
+}
+
+
+#addForm{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.addForm2 {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    display: flex;
+}
+
+
+.btnFormCoord{
+    background-color: #090808;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 6px;
+    text-align: center;
+    touch-action: manipulation;
+    width: 100px;
+    height: 35px;
+    margin: 0 10px; /* Ajout de la marge */
+}
+
+#titre{
+    width: 90%;
+    text-align: center;
+}
+
+.buttonTable {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #090808;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 6px;
+    text-align: center;
+    touch-action: manipulation;
+    width: 100px;
+    height: 35px;
+    margin: 0 10px; /* Ajout de la marge */
+}
+
+.btn:first-child {
+    margin-right: 0; /* Suppression de la marge pour le premier bouton */
+}
+
+.btn:last-child {
+    margin-left: 0; /* Suppression de la marge pour le dernier bouton */
+}
+
+.btn-close {
+    transform: translate(5px, 0px);
+    padding: 0.5rem 0.7rem;
+    background: #eee;
+    border-radius: 50%;
+    width:30px;
+    height:30px;
+    font-size:15px;
+    margin-bottom: 10px;
+}
+
+
+.coordinateurs{
+    background-color:#3aa1e6;
+
+}
+
+.salles{
+    background-color: #c23535;
+}
+
+.cours{
+    background-color: #e1b22f;
+}
+
+#wrap{
+    position: relative;
+    top: 10px;
+    height:70px;
+    background-color: #e8e8e8;
+}
+
+.thx {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15px;
+}
+nav {
+    width: 100%;
+    position: relative;
+    top: 25px;
+    text-align: center;
+}
+nav a {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #16151b;
+    margin: 0 15px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    position: relative;
+    display: inline-block;
+}
+.active{
+    border-bottom: solid;
+    border-bottom-width: 3px;
+}
+
+.scrollList {
+    height: 380px;
+    overflow: scroll;
+}
+
+table{
+    max-width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+#style1{
+    border:none;
+    width: 100px;
+    height: 30px;
+}
+input[type="color"] {
+    border-radius: 5px;
+    padding: 0;
+    border: 5px solid #DDD;
+}
+
+input[type="color"]::-moz-color-swatch {
+    border: none;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+    border-radius: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border: none;
+}

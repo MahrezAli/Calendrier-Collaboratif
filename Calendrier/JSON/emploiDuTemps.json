@@ -1,0 +1,32 @@
+{
+    "Math": {
+        "L2": [
+            {
+                "dateDebut": "2023-05-09",
+                "dateFin": "2023-05-09",
+                "heureDebut": "08:15",
+                "heureFin": "11:30",
+                "typeDeCours": "TP",
+                "matiere": "Analyse 3 - Suites et S\u00e9ries de fonctions",
+                "Coordinateur": "Coordinateur",
+                "Groupe": "G2",
+                "Salle": "B103",
+                "AMS": "false",
+                "dateAMS": ""
+            },
+            {
+                "dateDebut": "2023-05-10",
+                "dateFin": "2023-05-10",
+                "heureDebut": "09:45",
+                "heureFin": "10:30",
+                "typeDeCours": "TP",
+                "matiere": "Analyse 2 - S\u00e9ries et Int\u00e9grales",
+                "Coordinateur": "Rei David",
+                "Groupe": "G1",
+                "Salle": "B102",
+                "AMS": "false",
+                "dateAMS": ""
+            }
+        ]
+    }
+}

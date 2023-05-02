@@ -1,0 +1,98 @@
+body {
+    background: #f6f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    margin: -20px 0 50px;
+}
+
+.connexion_container {
+    background-color: #ffffff;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    float:left;
+    width: 300px;
+}
+
+.inscription_container{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #FF4B2B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    width: 30%;
+    text-align: center;
+}
+
+
+input {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    width: 200px;
+}
+
+form{
+    background-color: #FFFFFF;
+    display: flex;
+    border-bottom-left-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+}
+
+button {
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    background-color: #FF4B2B;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+button:hover {
+    border: 1px solid #ff8067;
+    background-color: #FF8067FF;
+    color: #FFFFFF;
+}
+
+.connexion_container h1 {
+    text-align:center;
+    color : black;
+}
+
+.inscription_container h1 {
+    text-align:center;
+    color : white;
+
+}
+
+p a {
+    font-family: Arial, Helvetica, sans-serif;
+    color : black;
+    text-decoration: none;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color : white;
+    text-decoration: none;
+}
+.container{
+    position:static;
+}
